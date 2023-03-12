@@ -21,7 +21,7 @@ Vježbe za osnove korištenja SQL baze podataka.
 
 <!-- CONTENT -->
 
-## Database diagram
+## Dijagram baze podataka
 
 Dijagram SQL baze podataka vizualni je prikaz tablica, odnosa i ograničenja u bazi podataka.
 
@@ -31,7 +31,7 @@ Dijagram uključuje okvire za tablice, veze koje povezuju tablice za predstavlja
 Dijagram mogu koristiti dizajneri baza podataka, programeri i administratori kako bi razumjeli strukturu baze podataka i izvršili izmjene u njoj. Također se može koristiti za priopćavanje dizajna baze podataka drugima koji će možda morati koristiti ili modificirati bazu podataka.
 
 
-## Normalization
+## Normalizacija
 
 SQL normalizacija je proces organiziranja podataka u bazi podataka kako bi se uklonila redundantnost i poboljšao integritet podataka. 
 Jednostavno rečeno, to je skup pravila koja pomažu u dizajniranju baze podataka koja je učinkovita i organizirana. Svrha normalizacije je eliminirati svaku redundantnost podataka i osigurati da su podaci pohranjeni logično, učinkovito i dosljedno.
