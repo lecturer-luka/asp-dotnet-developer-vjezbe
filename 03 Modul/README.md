@@ -126,8 +126,8 @@ Console.WriteLine(result); // Output: 8
 
 Događaj je obavijest koju šalje objekt kako bi signalizirao neke radnje. Događaji vam omogućuju da odgovorite na akcije koje poduzima korisnik ili sustav, poput klikova mišem ili dodavanja podataka u bazu podataka.
 
-Da biste koristili događaje u C#, trebate definirati tip delegata koji specificira potpis rukovatelja događajima (eng.: event handler). Tip delegata definira potpis metode metode rukovatelja događajem, a to je metoda koja se poziva kada se događaj pokrene.
+Da biste koristili događaje u C#, trebate definirati tip delegata koji specificira potpis rukovatelja događajima (eng.: event handler). Tip delegata definira potpis metode rukovatelja događajem, a to je metoda koja se poziva kada se događaj pokrene.
 
-Da biste pokrenuli događaj, koristite ključnu riječ event da definirate događaj kao člana klase, a zatim pozivate metodu rukovatelja događajem kroz događaj. Kada se događaj pokrene, sve registrirane metode rukovatelja događajima izvršavaju se redom.
+Da biste pokrenuli događaj, koristite ključnu riječ `event` da definirate događaj kao člana klase, a zatim pozivate metodu rukovatelja događajem kroz događaj. Kada se događaj pokrene, sve registrirane metode rukovatelja događajima izvršavaju se redom.
 
 <!-- END CONTENT -->
