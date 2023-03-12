@@ -16,7 +16,7 @@ Osnovni načini prosljeđivanja podataka:
 	* ViewData - objekt koji se koristi za prijenos podataka iz akcije kontrolera u pogled. To je kolekcija koji pohranjuje parove ključ-vrijednost, gdje je ključ naziv tipa "string", a vrijednost može biti bilo koji objekt.
 
 
-## Exercise 1
+## Vježba 1
 
 1. Stvorite novu ASP.NET Core MVC aplikaciju koristeći Visual Studio ili Visual Studio Code.
 2. Dodajte novu klasu modela pod nazivom "Book" sa svojstvima kao što su:
@@ -28,7 +28,7 @@ Osnovni načini prosljeđivanja podataka:
 4. Unutar "BookController" kreirajte privatnu metodu "DemoBookCollection" koja će vratiti kolekciju knjiga koja će sadržavati 4 objekta klase "Book" ispunjenih proizvoljnim podacima.
 5. U radnji "Index" dohvatite popis svih knjiga iz izvora podataka i proslijedite ga odgovarajućem pogledu za prikaz.
 
-## Exercise 2
+## Vježba 2
 
 1. Stvorite novu ASP.NET Core MVC aplikaciju koristeći Visual Studio ili Visual Studio Code.
 2. Dodajte novu klasu modela pod nazivom "Car" sa svojstvima kao što su:
@@ -52,7 +52,7 @@ Osnovni načini prosljeđivanja podataka:
 6. U akciji "FilterByYear" dohvatite popis automobila starijih od 2020 godine i proslijedite ga odgovarajućem pogledu za prikaz.
 6. U akciji "FilterByColor" dohvatite popis automobila čija boja sadrži slovo "L" i proslijedite ga odgovarajućem pogledu za prikaz.
 
-## Exercise 3
+## Vježba 3
 
 1. Stvorite novu ASP.NET Core MVC aplikaciju koristeći Visual Studio ili Visual Studio Code.
 2. Dodajte novu klasu modela "Football" u mapu "Models" sa sljedećim svojstvima:
@@ -65,7 +65,7 @@ Osnovni načini prosljeđivanja podataka:
 5. Proslijedite objekt `List<Football>` u odgovarajući pogled akcije "Index".
 6. Stvorite novi prikaz "Index.cshtml" u mapi "Views/Football" i prikažite podatke o nogometu u obliku tablice.
 
-## Exercise 4
+## Vježba 4
 
 1. Stvorite novu ASP.NET Core MVC aplikaciju koristeći Visual Studio ili Visual Studio Code.
 2. Dodajte novu klasu modela "Beer" u mapu "Models" sa sljedećim svojstvima:
