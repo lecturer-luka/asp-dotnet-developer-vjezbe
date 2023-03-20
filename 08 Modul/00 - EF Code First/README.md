@@ -12,13 +12,15 @@ Skup vježbi pokriva najosnovnije načine pristupa **code first**. Definirajte s
 	* To znači da svojstvu klase možete dodati posebne atribute kako biste odredili određena pravila koja podaci moraju slijediti, kao što su minimalna i maksimalna duljina, je li svojstvo potrebno ili kojeg je tipa podatak.
 </div>
 
+	* The examples below use MS SQL server databases.
+
 
 ## Exercise 1
 
 1. Kreirajte novu ASP.NET Core MVC aplikaciju koristeći Visual Studio ili Visual Studio Code.
 2. Instalirajte pakete Entity Framework Core:
 	* Microsoft.EntityFrameworkCore
-	* Microsoft.EntityFrameworkCore.Design
+	* Microsoft.EntityFrameworkCore.Tools
 	* Microsoft.EntityFrameworkCore.SqlServer
 3. Dodajte novu klasu modela pod nazivom `Book` sa svojstvima kao što su:
 	* Id (int)
@@ -41,7 +43,7 @@ Skup vježbi pokriva najosnovnije načine pristupa **code first**. Definirajte s
 1. Kreirajte novu ASP.NET Core MVC aplikaciju koristeći Visual Studio ili Visual Studio Code.
 2. Instalirajte pakete Entity Framework Core:
 	* Microsoft.EntityFrameworkCore
-	* Microsoft.EntityFrameworkCore.Design
+	* Microsoft.EntityFrameworkCore.Tools
 	* Microsoft.EntityFrameworkCore.SqlServer
 3. Dodajte novu klasu modela pod nazivom `Car` sa svojstvima kao što su:
 	* Id (int)
@@ -65,7 +67,7 @@ Skup vježbi pokriva najosnovnije načine pristupa **code first**. Definirajte s
 1. Kreirajte novu ASP.NET Core MVC aplikaciju koristeći Visual Studio ili Visual Studio Code.
 2. Instalirajte pakete Entity Framework Core:
 	* Microsoft.EntityFrameworkCore
-	* Microsoft.EntityFrameworkCore.Design
+	* Microsoft.EntityFrameworkCore.Tools
 	* Microsoft.EntityFrameworkCore.SqlServer
 3. Kreirajte klasu modela `BeerStyle`:
 	* Id (int)
@@ -90,7 +92,7 @@ Skup vježbi pokriva najosnovnije načine pristupa **code first**. Definirajte s
 1. Kreirajte novu ASP.NET Core MVC aplikaciju koristeći Visual Studio ili Visual Studio Code.
 2. Instalirajte pakete Entity Framework Core:
 	* Microsoft.EntityFrameworkCore
-	* Microsoft.EntityFrameworkCore.Design
+	* Microsoft.EntityFrameworkCore.Tools
 	* Microsoft.EntityFrameworkCore.SqlServer
 3. Kreirajte klasu modela `Autor`:
 	* Id (int)
