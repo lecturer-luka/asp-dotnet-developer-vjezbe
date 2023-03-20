@@ -12,7 +12,7 @@ Skup vježbi pokriva najosnovnije načine pristupa **code first**. Definirajte s
 	* To znači da svojstvu klase možete dodati posebne atribute kako biste odredili određena pravila koja podaci moraju slijediti, kao što su minimalna i maksimalna duljina, je li svojstvo potrebno ili kojeg je tipa podatak.
 </div>
 
-	* The examples below use MS SQL server databases.
+	* Primjeri u nastavku koriste MS SQL server baze podataka.
 
 
 ## Exercise 1
