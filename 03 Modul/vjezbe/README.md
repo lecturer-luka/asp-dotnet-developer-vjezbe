@@ -2,11 +2,11 @@
 
 <!-- title -->
 
-# Osnovne vježbe s klasama u web aplikaciji ASP.NET MVC
+# Osnovne vježbe s klasama u konzolnim aplikacijama
 
 <!-- description -->
 
-Skup vježbi pokriva osnovne vježbe za učenje koirštenja try-catch blokova, nullbilnih tipova, aninomnih tipova i metoda i delegata u C#.
+Skup vježbi pokriva osnovne vježbe za učenje korištenja try-catch blokova, nullbilnih tipova, aninomnih tipova, metoda i delegata u C#.
 
 </div>
 
