@@ -11,9 +11,10 @@ Popis vježbi za uvodnu razinu manipulacije podacima u MVC arhitekturi. Vježbe 
 </div>
 
 Osnovni načini prosljeđivanja podataka:
-	* Objekt modela - odnosi se na podatke modela koji se prosljeđuju iz kontrolera u pogled. Ovi podaci mogu biti bilo kojeg tipa, ali obično je to instanca klase koja predstavlja podatke koje pogled treba prikazati.
-	* ViewBag - dinamički objekt u C# koji se koristi za prijenos podataka između kontrolera i pogleda u ASP.NET aplikacijama. To je svojstvo osnovne klase "Controller" koje vam omogućuje pohranjivanje podataka i pristup njima iz pogleda.
-	* ViewData - objekt koji se koristi za prijenos podataka iz akcije kontrolera u pogled. To je kolekcija koji pohranjuje parove ključ-vrijednost, gdje je ključ naziv tipa "string", a vrijednost može biti bilo koji objekt.
+
+* Objekt modela - odnosi se na podatke modela koji se prosljeđuju iz kontrolera u pogled. Ovi podaci mogu biti bilo kojeg tipa, ali obično je to instanca klase koja predstavlja podatke koje pogled treba prikazati.
+* ViewBag - dinamički objekt u C# koji se koristi za prijenos podataka između kontrolera i pogleda u ASP.NET aplikacijama. To je svojstvo osnovne klase "Controller" koje vam omogućuje pohranjivanje podataka i pristup njima iz pogleda.
+* ViewData - objekt koji se koristi za prijenos podataka iz akcije kontrolera u pogled. To je kolekcija koji pohranjuje parove ključ-vrijednost, gdje je ključ naziv tipa "string", a vrijednost može biti bilo koji objekt.
 
 
 ## Vježba 1
@@ -24,28 +25,28 @@ Osnovni načini prosljeđivanja podataka:
 	* Author (string), 
 	* PublicationDate (int), 
 	* Genre (string)
-3. Napravite novi kontroler pod nazivom "BookController" s radnjom "Index"
+3. Napravite novi kontroler pod nazivom "BookController" s akcijom "Index"
 4. Unutar "BookController" kreirajte privatnu metodu "DemoBookCollection" koja će vratiti kolekciju knjiga koja će sadržavati 4 objekta klase "Book" ispunjenih proizvoljnim podacima.
-5. U radnji "Index" dohvatite popis svih knjiga iz izvora podataka i proslijedite ga odgovarajućem pogledu za prikaz.
+5. U akciji "Index" dohvatite popis svih knjiga iz izvora podataka i proslijedite ga odgovarajućem pogledu za prikaz.
 
 ## Vježba 2
 
 1. Stvorite novu ASP.NET Core MVC aplikaciju koristeći Visual Studio ili Visual Studio Code.
 2. Dodajte novu klasu modela pod nazivom "Car" sa svojstvima kao što su:
-	* Make (string), 
+	* MadeBy (string), 
 	* Model (string), 
 	* Year (int), 
 	* Color (string), 
 	* Price (decimal)
-3. Napravite novi kontroler pod nazivom "CarController" s radnjama "Index", "FilterByYear" i "FilterByColor".
+3. Napravite novi kontroler pod nazivom "CarController" s akcijama "Index", "FilterByYear" i "FilterByColor".
 4. Koristite sljedeće demo podatke za svoje akcije kontrolera:
 	 ```csharp
 	List<Car> demoCarData = new List<Car> {
-		new Car {Make = Toyota, Model = Corolla, Year = 2020, Color = Gray, Price = 25000},
-		new Car {Make = Honda, Model = Civic, Year = 2021, Color = Red, Price = 28000},
-		new Car {Make = Ford, Model = F-150, Year = 2018, Color = Blue, Price = 35000},
-		new Car {Make = BMW, Model = X5, Year = 2019, Color = Black, Price = 50000},
-		new Car {Make = Chevrolet, Model = Camaro, Year = 2016, Color = Yellow, Price = 42000}
+		new Car {MadeBy = Toyota, Model = Corolla, Year = 2020, Color = Gray, Price = 25000},
+		new Car {MadeBy = Honda, Model = Civic, Year = 2021, Color = Red, Price = 28000},
+		new Car {MadeBy = Ford, Model = F-150, Year = 2018, Color = Blue, Price = 35000},
+		new Car {MadeBy = BMW, Model = X5, Year = 2019, Color = Black, Price = 50000},
+		new Car {MadeBy = Chevrolet, Model = Camaro, Year = 2016, Color = Yellow, Price = 42000}
 	};
 	```
 5. U akciji "Index", dohvatite popis svih automobila iz izvora podataka i proslijedite ga odgovarajućem pogledu za prikaz.
@@ -61,9 +62,9 @@ Osnovni načini prosljeđivanja podataka:
 	* Stadium (string)
 	* Founded (int)
 3. Stvorite novu klasu kontrolera "FootballController" s akcijskom metodom "Index".
-4. U akciji "Index" stvorite objekt `List<Football>` i popunite ga nekim lažnim podacima (npr. 5 objekata klase "Football").
+4. U akciji "Index" stvorite objekt `List<Football>` i popunite ga nekim podacima (npr. 5 objekata klase "Football").
 5. Proslijedite objekt `List<Football>` u odgovarajući pogled akcije "Index".
-6. Stvorite novi prikaz "Index.cshtml" u mapi "Views/Football" i prikažite podatke o nogometu u obliku tablice.
+6. Stvorite novi pogled "Index.cshtml" u mapi "Views/Football" i prikažite podatke o nogometu u obliku tablice.
 
 ## Vježba 4
 
